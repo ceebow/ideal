@@ -1,0 +1,87 @@
+body{
+  padding:0px;
+  margin:0px 0px;
+}
+
+header{
+  background: linear-gradient(#CD5C5C, transparent 100%),
+    lightcoral url(Photos/hi4.jpeg) no-repeat center;
+  background-size:cover;
+  width:auto;
+  height:768px;
+  margin:0;
+}
+
+.title{
+  color:white;
+}
+
+h1{
+  margin:0;
+  padding:100px 100px 0px;
+  text-align:center;
+  font-family:'Nunito', serif;
+  font-weight:900;
+  font-size:150px;
+}
+
+h2{
+  padding:50px 10px 20px;
+  margin:0;
+  text-align:center;
+  font-family:'Raleway', sans-serif;
+}
+
+ul li{
+  list-style-type: none;
+  padding:0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight:600;
+  color:black;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.menu{
+  text-align:center;
+  list-style: none;
+}
+
+.menu li{
+  display:inline;
+}
+
+.menu a{
+  display:inline-block;
+}
+
+a:link {
+  color:#adcb41;
+}
+
+a:visited{
+  color:#006d68;
+
+}
+
+a:hover { 
+  background-color:white;
+  padding: 0px 5px 0px 5px;
+  color: lightcoral;
+  
+}
+
+footer{
+  background-color:black;
+  margin:0;
+  padding:10px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: .75em;
+  
+}
+
+p{
+  margin:0;
+}

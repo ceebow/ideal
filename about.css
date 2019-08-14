@@ -1,0 +1,179 @@
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box
+}
+
+h1{
+  margin:0;
+  padding:2%;
+  text-align:center;
+  font-family:'Nunito', serif;
+  font-weight:900;
+  font-size:2em;
+}
+
+h2{
+  padding:10px;
+  margin:0;
+  font-family:'Nunito', sans-serif;
+}
+
+.menu li{
+  list-style-type: none;
+  padding:2%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  font-weight:600;
+  color:black;
+  margin-left: 0;
+}
+
+.menu{
+  text-align:right;
+  list-style: none;
+  margin: 0;
+}
+
+header{
+  background-color: lightcoral;
+  margin: 0;
+  padding: .5%;
+}
+
+.menu li{
+  display:inline;
+}
+
+.menu a{
+  display:inline-block;
+}
+
+a:link {
+  color:white;
+}
+
+a:visited{
+  color:#a7d6d5;
+
+}
+
+a:hover { 
+  background-color:white;
+  padding: 0px 5px 0px 5px;
+  color: lightcoral;
+  
+}
+
+.cv h2 {
+  text-align:center;
+}
+
+/*Table Styling*/
+
+table{
+  margin: 0;
+  padding: 5%;
+}
+
+th{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25em;
+  padding: .75em 0;
+  text-align: left;
+}
+
+td:nth-child(2){
+  padding: .5em;
+  
+}
+
+td{
+  font-family: sans-serif;
+  font-size: .9em;
+}
+
+/* Columns */
+
+.cv{
+  width: 65%;
+  float: left;
+  margin-bottom: 0;
+  padding: 3%;
+}
+
+.about,.wrap{
+  padding: 3%;
+  width: 35%;
+  float: right;
+  margin-bottom: 0;
+}
+
+.about , .about a{
+  background-color:#adcb41;
+  margin-bottom:.5em;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+.about q {
+  font-size: 1.25em;
+  line-height: 2em; 
+}
+
+.about img{
+display: block;
+}
+
+.quote{
+  border: dotted 1px white;
+  padding: 5px;
+  margin: 2px;
+}
+
+.sociallinks {
+  font-size: .25em;
+  padding: 5px;
+}
+
+.wrap{
+  padding: 0 5%;
+  display: inline;
+  text-align: center;
+  background-color: #d7d7d7;
+}
+
+.wrap h2{
+  color: white;
+}
+
+.sociallinks li{
+  font-family: 'Nunito', sans-serif;
+  font-size: 4em;
+  list-style-type: none;
+  line-height: 2em;
+}
+
+.sociallinks a{
+  color:#adcb41;
+}
+
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+/*Footer*/
+
+footer{
+  background-color:black;
+  margin:0;
+  padding:10px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: .75em;
